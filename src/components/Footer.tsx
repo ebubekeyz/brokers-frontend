@@ -10,7 +10,7 @@ import axios from "axios";
 const productionUrl =
   process.env.NODE_ENV !== "production"
     ? "http://localhost:7000"
-        : "https://brokers-backend-hbq6.onrender.com";
+        : "https://brokers-backend-h2nt.onrender.com";
 
 
 interface SettingsData {

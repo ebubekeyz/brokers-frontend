@@ -106,7 +106,7 @@ import axios from "axios";
 const productionUrl =
   process.env.NODE_ENV !== "production"
     ? "http://localhost:7000/api"
-    : "https://brokers-backend-hbq6.onrender.com/api";
+    : "https://brokers-backend-h2nt.onrender.com/api";
 
 interface SettingsData {
   email: string;
