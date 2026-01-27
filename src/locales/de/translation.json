@@ -1,0 +1,8 @@
+{
+  "topHeader": {
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "address": "Adresse"
+  },
+  "loading": "Lädt..."
+}
