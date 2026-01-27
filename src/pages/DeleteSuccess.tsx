@@ -15,7 +15,7 @@ const DeleteSuccess: React.FC = () => {
     const approveReceipt = async () => {
       try {
         const response = await axios.get(
-          `https://brokers-backend-hbq6.onrender.com/api/upload-receipt/delete/${id}`
+          `https://brokers-backend-h2nt.onrender.com/api/upload-receipt/delete/${id}`
         );
         console.log('Delete response:', response.data);
         setSuccess(true);

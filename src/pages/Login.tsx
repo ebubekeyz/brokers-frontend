@@ -7,7 +7,7 @@ import { loginUser } from "../features/user/UserSlice";
 const productionUrl =
   process.env.NODE_ENV !== "production"
     ? "http://localhost:7000/api"
-    : "https://brokers-backend-hbq6.onrender.com/api";
+    : "https://brokers-backend-h2nt.onrender.com/api";
 
 const API_URL = `${productionUrl}/auth/login`;
 

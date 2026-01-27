@@ -22,7 +22,7 @@ const UserView: React.FC = () => {
 
   const baseURL =
     import.meta.env.MODE === "production"
-      ? "https://brokers-backend-hbq6.onrender.com/api"
+      ? "https://brokers-backend-h2nt.onrender.com/api"
       : "http://localhost:7000/api";
 
   useEffect(() => {

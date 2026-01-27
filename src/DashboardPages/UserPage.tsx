@@ -22,7 +22,7 @@ const UserPage: React.FC = () => {
   const productionUrl =
     import.meta.env.MODE !== "production"
       ? "http://localhost:7000/api"
-      : "https://brokers-backend-hbq6.onrender.com/api";
+      : "https://brokers-backend-h2nt.onrender.com/api";
 
   const fetchUsers = async (): Promise<void> => {
     if (!token) return;

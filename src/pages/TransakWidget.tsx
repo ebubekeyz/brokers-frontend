@@ -30,7 +30,7 @@ const TransakWidget: React.FC<TransakWidgetProps> = ({
       redirectURL: "",
       productsAvailed: mode,
       defaultCryptoCurrency: "ETH",
-      termsAndConditions: "https://brokers-real.netlify.app/terms"
+      termsAndConditions: "https://brokers-main.netlify.app/terms"
     });
 
     transak.init();

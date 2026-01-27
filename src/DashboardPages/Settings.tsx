@@ -17,7 +17,7 @@ const Settings: React.FC = () => {
   const productionUrl =
     process.env.NODE_ENV !== "production"
       ? "http://localhost:7000/api"
-      : "https://brokers-backend-hbq6.onrender.com/api";
+      : "https://brokers-backend-h2nt.onrender.com/api";
 
   useEffect(() => {
     const fetchSettings = async () => {
