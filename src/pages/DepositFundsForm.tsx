@@ -18,14 +18,14 @@ interface InvestmentItem {
 
 const investmentOptions: Record<string, InvestmentItem[]> = {
   gold: [
-      { label: "Gold Bullion (50oz)", price: 120000, percentage: 50 },
-      { label: "Gold ETF", price: 72000, percentage: 30 },
-      { label: "Gold Mining Stocks", price: 48000, percentage: 20 },
+      { label: "Gold Bullion (50oz)", price: 1000, percentage: 50 },
+      { label: "Gold ETF", price: 2000, percentage: 30 },
+      { label: "Gold Mining Stocks", price: 3000, percentage: 20 },
     ],
     crypto: [
-      { label: "Bitcoin (BTC)", price: 65000, percentage: 10 },
-      { label: "Ethereum (ETH)", price: 3800, percentage: 9 },
-      { label: "Solana (SOL)", price: 160, percentage: 7 },
+      { label: "Bitcoin (BTC)", price: 1000, percentage: 10 },
+      { label: "Ethereum (ETH)", price: 2000, percentage: 9 },
+      { label: "Solana (SOL)", price: 500, percentage: 7 },
     ],
     hybrid: [
       { label: "50% Gold + 50% BTC", price: 10000, percentage: 8 },
