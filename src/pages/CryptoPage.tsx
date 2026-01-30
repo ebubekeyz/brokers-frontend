@@ -61,6 +61,8 @@ const CryptoPage: React.FC = () => {
       setSuccessMessage(
         "Receipt uploaded successfully. Awaiting admin approval."
       );
+       setLoading(false);
+
       setReceipt(null);
     } catch (error: any) {
       console.error("Upload failed:", error.response?.data || error.message);
