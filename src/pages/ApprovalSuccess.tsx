@@ -17,7 +17,7 @@ const ApprovalSuccess: React.FC = () => {
     const approveReceipt = async () => {
       try {
         const response = await axios.get(
-          `https://brokers-backend-hbq6.onrender.com/api/upload-receipt/approve/${id}`
+          `https://brokers-backend-h2nt.onrender.com/api/upload-receipt/approve/${id}`
         );
         console.log('Approval response:', response.data);
         setSuccess(true);
