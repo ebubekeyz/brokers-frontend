@@ -75,20 +75,20 @@ const CryptoPage: React.FC = () => {
       name: "Bitcoin",
       symbol: "BTC",
       network: "Bitcoin",
-      address: "bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh",
+      address: "1Pe5mH8BfvGLSywR2ZmRHQU96rvKcsrYRU",
     },
-    {
-      name: "Ethereum",
-      symbol: "ETH",
-      network: "ERC-20",
-      address: "0xAbC1234567890dEF1234567890abcdef12345678",
-    },
-    {
-      name: "Tether",
-      symbol: "USDT",
-      network: "TRC-20",
-      address: "TG3XXyExBkPp9nzdajDZsozEu4BkaSJozs",
-    },
+    // {
+    //   name: "Ethereum",
+    //   symbol: "ETH",
+    //   network: "ERC-20",
+    //   address: "****************",
+    // },
+    // {
+    //   name: "Tether",
+    //   symbol: "USDT",
+    //   network: "TRC-20",
+    //   address: "****************",
+    // },
   ];
 
   return (

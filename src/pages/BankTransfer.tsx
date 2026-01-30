@@ -71,11 +71,12 @@ const BankTransferPage: React.FC = () => {
   };
 
   const bankDetails = {
-    bankName: "First National Bank",
-    accountName: "FinTrust Brokerage LLC",
-    accountNumber: "1234567890",
-    swiftCode: "FNBNUS33",
-    bankAddress: "100 Wall Street, New York, NY",
+    bankName: "Wells Fargo",
+    accountName: "Morgan Albair",
+    accountNumber: "6371888089",
+    swiftCode: "WFBIUS6S",
+    routingNumber: "121042882",
+    bankAddress: "915 Northern Blud Clarks Summit, PA 18411",
   };
 
   return (
@@ -105,6 +106,9 @@ const BankTransferPage: React.FC = () => {
           </li>
           <li>
             <strong>SWIFT Code:</strong> {bankDetails.swiftCode}
+            </li>
+            <li>
+            <strong>Routing Number:</strong> {bankDetails.routingNumber}
           </li>
           <li>
             <strong>Bank Address:</strong> {bankDetails.bankAddress}
